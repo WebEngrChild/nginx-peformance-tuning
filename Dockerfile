@@ -1,8 +1,7 @@
 # ベースとなるイメージを指定
 FROM nginx:1.24.0
 
-# ホストマシンのnginx設定ファイルをコンテナにコピー（オプション）
-# COPY ./my_nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # コンテナの80番ポートを開放
 EXPOSE 80
