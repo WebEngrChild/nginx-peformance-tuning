@@ -1,4 +1,4 @@
-# Getting Started
+# Set Up Container
 
 ```shell
 # ビルド
@@ -24,3 +24,4 @@ docker rm $CONTAINER_ID
 CONTAINER_ID=$(docker ps | grep my_nginx_image | awk '{print $1}')
 docker rmi my_nginx_image
 ```
+# Load Testing
