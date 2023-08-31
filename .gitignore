@@ -1,0 +1,9 @@
+# IDE/エディタ関連
+.vscode/
+.idea/
+
+# OS関連
+.DS_Store
+
+# クレデンシャル
+.env
